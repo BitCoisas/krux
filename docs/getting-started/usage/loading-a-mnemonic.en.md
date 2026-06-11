@@ -8,7 +8,7 @@ Once you have either a 12 or 24-word [BIP39 mnemonic](https://github.com/bitcoin
 <img src="../../../img/maixpy_amigo/load-mnemonic-camera-options-300.png" align="right" class="amigo">
 
 ### Via Camera
-You can choose to use the camera to scan a `QR code`, `Tinyseed`, `OneKey KeyTag` or a `Binary Grid`. Learn more about these [metal backups here](../features/tinyseed.en.md).
+You can choose to use the camera to scan a `QR code`, `Tinyseed`, `OneKey KeyTag`, a `Binary Grid` or a `Stackbit 1248`. Learn more about these [metal backups here](../features/tinyseed.en.md).
 
 ----8<----
 camera-scan-tips.en.txt
@@ -32,6 +32,9 @@ You can also use [an offline QR code generator for this](https://iancoleman.io/b
 [Tinyseed](https://tinyseed.io/), [Onekey KeyTag](https://onekey.so/products/onekey-keytag/) and others directly encode a seed as binary, allowing for a very compact mnemonic storage. Krux devices have machine vision capabilities that allow users to scan these metal plates and instantly load mnemonics engraved on them (this feature is not available in [Krux Mobile Android app](../../faq.md#what-is-krux-mobile-android-app)).
 
 To ensure a proper scan, place the backup plate over a black background and fill in the punched areas with black to enhance contrast. Alternatively, you can scan a [thermally printed version](../features/printing/printing.md) or a completed template. You can view some [examples of encoded mnemonics here](../features/tinyseed.md), and explore our [available transcription templates here](../templates/index.md).
+
+#### Stackbit 1248
+Krux can also scan a [Stackbit 1248](https://stackbit.me/produto/stackbit-1248/) metal plate and decode its 1-2-4-8 punch pattern. Position the full plate within the camera frame and keep it steady. For 12 words, the capture happens automatically once two consecutive readings match and form a valid checksum. For 24 words, press ENTER or touch the screen to capture the first face while watching the detected punches, then flip the plate to scan words 13-24, validated by the full checksum. The decoded words are then presented for review and can be edited before loading.
 
 ### Via Manual Input
 <img src="../../../img/maixpy_m5stickv/load-mnemonic-manual-options-250.png" align="right" class="m5stickv">

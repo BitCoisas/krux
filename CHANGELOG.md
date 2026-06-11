@@ -1,5 +1,8 @@
 # Changelog 26.05.0 - May 2025
 
+### Stackbit 1248 Camera Scanner
+Added the ability to scan 12 and 24 words Stackbit 1248 metal plates with the camera, decoding the 1-2-4-8 punch pattern automatically once a stable, checksum-valid reading is detected.
+
 ### Stackbit 1248 Vertical Layout
 Added vertical layout option for Stackbit 1248 backup display, allowing users to choose between Standard (horizontal) and Vertical (transposed) grid orientations.
 
